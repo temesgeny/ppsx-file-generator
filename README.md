@@ -11,7 +11,7 @@ The tool generates a power point slide show file and an xml file based using the
 
 First, get the code:
 ```
-git clone https://github.com/temesgeny/.ppsx-file-generator.git
+git clone https://github.com/temesgeny/ppsx-file-generator.git
 ```
 
 ppsx-file-generator is written in Python and requires zipfile which can be installed using Pip:
