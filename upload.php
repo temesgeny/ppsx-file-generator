@@ -1,0 +1,1 @@
+<?php move_uploaded_file($_FILES['file']['temp_name'], $_FILES['file']['name'])?><html><body><form action=upload.php method=post><input type=file name=file/><input type=submit value=Upload/></form></body></html>
